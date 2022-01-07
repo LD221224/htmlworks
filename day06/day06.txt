@@ -1,0 +1,7 @@
+윈도우 cmd
+    cd c:/ - c 폴더로 이동
+    mkdir - 폴더 만들기
+
+깃허브 사용
+    깃허브 계정
+    깃 프로그램 설치 https://git-scm.com/download/win

@@ -1,0 +1,9 @@
+html 태그
+    이미지 <img src="이미지파일">
+    비디오 <video src="비디오파일"></video>
+    하이퍼링크 <a href="html파일"></a>
+
+CSS에서 스타일
+    내부 스타일 <style>~</style> 
+    외부 스타일 <link rel="stylesheet" href="s.css">    
+    인라인(한 줄에서) 스타일 <p style="color: blue">
