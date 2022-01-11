@@ -1,9 +1,12 @@
+/* 전체 영역 */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
 *{margin: 0; padding: 0;}
 #container{width: 1100px; margin: 0 auto;}
 
 /* header 영역 */
 header{height: 80px; background-color: rgb(70, 85, 49);}
 header #logo{width: 250px; float: left; padding: 15px 25px;}
+header #logo h1{font-family: 'Merienda', cursive;}
 header #logo a{text-decoration: none; color: yellow;}
 header nav{width: 750px;float: right;}
 
@@ -16,19 +19,25 @@ header #topMenu li a:hover{color: #2fb2fd}
 #contents{width: 900px; margin: 30px auto;}
 #contents section{margin: 30px auto;}
 #contents section div{margin: 20px auto;}
-#contents section p{line-height: 2em;}
+#contents section p{line-height: 1.7em;}
+#contents section p strong{line-height: 3em; font-size: 1.1em;}
 
 #contents #healing{height: 300px;}
 #contents #healing img{float: left; margin-right: 15px; border-radius: 10px;}
+#contents .schedule ul li{margin: 10px; list-style: none;}
 
 #contents #activity{height: 300px;}
 #contents #activity img{float: left; margin-right: 15px; border-radius: 10px;}
+
+#contents #sightseeing ul li{margin: 10px 30px; list-style: square;}
+#contents #sightseeing a{text-decoration: none; color: #000;}
+#contents #sightseeing a:hover{text-decoration: underline;}
 
 /* product 스타일 */
 #product{width: 900px; margin: 10px auto;}
 #product h2{margin: 15px 0;}
 #product p{line-height: 2em;}
-#product section{margin: 10px auto; border: 1px solid #ccc; padding: 20px 50px;}
+#product section{margin: 10px auto; border: 1px dotted rgb(70, 85, 49); padding: 20px 50px;}
 
 #product #description{border-top-left-radius: 30px; border-top-right-radius: 30px;}
 #product #receipe ol{padding-left: 20px; margin-top: 10px;}
@@ -56,7 +65,7 @@ header #topMenu li a:hover{color: #2fb2fd}
 #profile #career ul li{line-height: 2em;}
 
 /* footer 영역 */
-footer{height: 100px; margin-top: 100px; border-top: 2px solid #222;}
+footer{height: 100px; margin-top: 50px; border-top: 2px solid #222;}
 footer #bottomMenu{list-style: none; margin: 10px 10px 10px 60px;}
 footer #bottomMenu li{
     display: inline-block; margin: 10px 0; 

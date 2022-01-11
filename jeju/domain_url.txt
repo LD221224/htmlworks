@@ -1,0 +1,12 @@
+도메인 주소 - 세계적 관리 기관
+우리나라 관리 기관 - KISA KRNIC
+
+홈페이지(사이트)의 주소 - 도메인(Domain)
+https://hosting.cafe24.com/
+
+URL(Unform Resource Location)
+https://hosting.cafe24.com/?controller=product_basic_main
+
+호스팅 서버 임대 - 닷홈
+ldy00.dothome.co.kr
+-> FTP 프로그램으로 업로드 - 파일질라, 알디스크
