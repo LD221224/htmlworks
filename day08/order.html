@@ -47,11 +47,14 @@
                 <ul id="shipping">
                     <li>
                         <label for="name">이름</label>
-                        <input type="text" name="name" id="name">
+                        <input type="text" name="name" id="name" 
+                            required autofocus>
+                            <!-- required - 필수 입력 속성
+                                autofocus - 커서 위치를 자동으로 설정 -->
                     </li>
                     <li>
                         <label for="addr">배송주소</label>
-                        <input type="text" name="addr" id="addr">
+                        <input type="text" name="addr" id="addr" required>
                     </li>
                     <li>
                         <label for="email">이메일</label>
@@ -59,7 +62,8 @@
                     </li>
                     <li>
                         <label for="phone">연락처</label>
-                        <input type="tel" name="phone" id="phone">
+                        <input type="tel" name="phone" id="phone" required
+                            placeholder="하이픈(-)을 빼고 입력해주세요.">
                     </li>
                 </ul>
             </fieldset>

@@ -1,0 +1,11 @@
+#container{width: 500px; margin: 30px auto; border: 1px solid black; padding: 20px;}
+
+form{width: 400px;}
+form ul li{list-style: none; margin: 10px 0;}
+form #info label{width: 60px; float: left;}
+
+.button{margin-top: 10px;}
+/* input 태그 */
+/* .button input{width: 80px; height: 30px;} */
+/* button 태그 */
+button{width: 80px; height: 30px;}
