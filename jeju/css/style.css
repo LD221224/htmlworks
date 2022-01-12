@@ -71,4 +71,5 @@ footer #bottomMenu li{
     display: inline-block; margin: 10px 0; 
     border-right: 1px solid #ccc; padding: 0 10px
 }
+footer #bottomMenu li:last-child{border: none;}
 footer #bottomMenu li a{text-decoration: none; color: #444;}

@@ -1,0 +1,52 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    /* 가운데 배치 */
+    border: none;
+    /* 테두리 숨김 */
+}
+header{
+    height: 80px;
+}
+nav{
+    margin-bottom: 20px;
+}
+section{
+    height: 600px;
+}
+/* div{
+    width: 700px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+} */
+#description{
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 500px;
+    border-top-left-radius: 30px;   
+    border-top-right-radius: 30px;   
+}
+#description p{
+    line-height: 2em;
+}
+#receipe{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+#receipe ol li{
+    line-height: 2em;
+}
+#product{
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-bottom-left-radius: 30px;   
+    border-bottom-right-radius: 30px;   
+}
+table, th, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px 20px;
+}
