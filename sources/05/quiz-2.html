@@ -12,7 +12,7 @@
 			}
       fieldset { margin-bottom:15px; }
       legend { font-weight:bold; }
-			ul {list-style-type: none;}
+			ul { list-style-type: none;}
 			li { line-height:30px;}
     </style>
   </head>
@@ -22,7 +22,38 @@
 			<p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
 			<hr>
 			<form>
-				
+				<h4>개인 정보</h4>
+				<ul>
+					<li>
+						<label for="name">이름</label>
+						<input type="text" id="name" placeholder="공백 없이 입력하세요">
+					</li>
+					<li>
+						<label for="tel">연락처</label>
+						<input type="tel" id="tel">
+					</li>
+				</ul>
+				<h4>지원 분야</h4>
+				<ul>
+					<li>
+						<label><input type="radio" name="field" id="field_p" value="pub">
+						<label for="field_p">웹 퍼블리싱</label>
+					</li>
+					<li>
+						<input type="radio" name="field" id="field_a" value="app">
+						<label for="field_p">웹 애플리케이션 개발</label>
+					</li>
+					<li>
+						<input type="radio" name="field" id="field_u" value="update">
+						<label for="field_p">개발 환경 개선</label>
+					</li>
+				</ul>
+				<h4>지원 동기</h4>
+				<textarea cols="60" rows="5" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+				<div>
+					<button type="submit">접수하기</button>
+					<button type="reset">다시 쓰기</button>
+				</div>
 			</form>
 		</div>
   </body>
