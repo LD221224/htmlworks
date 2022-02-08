@@ -1,0 +1,69 @@
+/* 웹 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+/***** 모바일 기준 *****/
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#container{width: 100%; margin: 0 auto;}
+
+/* header */
+header{width: 100%; height: 250px;}
+
+nav{width: 100%; height: 60px; background: #000;}
+nav #main-nav{list-style: none; text-align: center;}
+nav #main-nav li{display: inline-block; margin: 15px;}
+nav #main-nav a{color: #fff; text-decoration: none;}
+nav #main-nav a:hover{color: yellow;}
+
+header #main-pic img{width: 100%; height: 210px;}
+
+/* section */
+section{height: 350px; padding: 15px;}
+section:nth-child(2n+1){background: #eee;}
+section .page-title{margin-top: 30px;}
+section .page-title h1{font-family: 'Nanum Pen Script', cursive; font-size: 2em}
+section .content{margin: 10px;}
+section .content p, h2{line-height: 2em;}
+
+#choice ol{padding-left: 30px;}
+#choice ol li{line-height: 2em;}
+
+#intro .photo, #choice .photo, #map .photo{display: none}    /* 모바일 - 이미지 숨기기 */
+
+/* footer */
+footer{height: 80px; border-top: 2px solid #333;}
+#bottomMenu{list-style: none; margin: 10px 10px 10px 30px;}
+#bottomMenu li{
+    display: inline-block; margin: 10px; 
+    border-right: 1px solid #ccc; padding: 0 10px;
+}
+#bottomMenu li:last-child{border-right: none;}
+#bottomMenu li a{text-decoration: none; color: #000; padding-right: 25px;}
+
+/***** 태블릿 기준 *****/
+@media screen and (min-width: 780px){
+    #container{width: 100%; margin: 0 auto;}
+
+    header{height: 300px;}
+    header #main-pic img{width: 100%; height: 250px;}
+    nav #main-nav{text-align: right; margin-right: 100px;}
+
+    section{height: 400px;}
+    #intro, #choice{width: 50%; float: left;}
+    #map{clear: both;}
+
+}
+
+/***** PC 기준 *****/
+@media screen and (min-width: 1000px){
+    #container{width: 1000px; margin: 0 auto;}
+    
+    header{height: 320px;}
+    header #main-pic img{width: 100%; height: 290px;}
+    nav #main-nav{text-align: right; margin-right: 100px;}
+
+    section{height: 350px;}
+    #intro, #choice{width: 100%;}
+    #intro .photo img, #map .photo img{float: left; margin-right: 20px; border-radius: 5px;}
+    #choice .photo img{float: right; margin-right: 20px; border-radius: 5px}
+    #intro .photo, #choice .photo, #map .photo{display: block}   /* PC - 이미지 보이기 */
+}
