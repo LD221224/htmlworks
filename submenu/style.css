@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;}
+#container{width: 1000px; margin: 0 auto;}
+nav{height: 60px; background: rgb(3, 0, 165);}
+
+#main-menu, #sub-menu{list-style: none; text-align: center;}
+#main-menu > li{display: inline-block; margin: 20px;}  /* 자식 선택 '>' */
+#main-menu > li > a{color: #fff; text-decoration: none; padding: 15px 30px;}
+
+#sub-menu{position: absolute; top: 60px; background: rgb(2, 0, 114); 
+    visibility: hidden;}
+#sub-menu > li{padding: 15px 30px;}
+#sub-menu > li > a{text-decoration: none; color: rgba(255, 255, 255, 0.6);}
+#main-menu > li:hover #sub-menu{visibility: visible;}
